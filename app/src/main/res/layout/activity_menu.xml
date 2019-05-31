@@ -8,46 +8,45 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="100px"
+        android:layout_margin="20dp"
         >
         <ImageButton
             android:id="@+id/cu"
             android:layout_toRightOf="@id/loc"
-            android:layout_width="587px"
-            android:layout_height="1505px"/>
+            android:layout_width="500dp"
+            android:layout_height="1505dp"/>
         <ImageButton
             android:id="@+id/loc"
-
-            android:layout_width="587px"
-            android:layout_height="312px"/>
+            android:layout_width="200dp"
+            android:layout_height="100dp"/>
 
         <ImageButton
 
             android:layout_below="@+id/loc"
-            android:layout_marginTop="37px"
+            android:layout_marginTop="37dp"
             android:id="@+id/food"
-            android:layout_width="587px"
-            android:layout_height="312px"/>
+            android:layout_width="200dp"
+            android:layout_height="100dp"/>
         <ImageButton
             android:id="@+id/sale"
             android:layout_below="@id/food"
-            android:layout_marginTop="37px"
-            android:layout_width="587px"
-            android:layout_height="312px"/>
+            android:layout_marginTop="37dp"
+            android:layout_width="200dp"
+            android:layout_height="100dp"/>
 
         <ImageButton
             android:id="@+id/one"
             android:layout_below="@id/sale"
-            android:layout_marginTop="37px"
-            android:layout_width="293px"
-            android:layout_height="458px"/>
+            android:layout_marginTop="37dp"
+            android:layout_width="100dp"
+            android:layout_height="458dp"/>
         <ImageButton
             android:id="@+id/any"
             android:layout_toRightOf="@+id/one"
             android:layout_below="@id/sale"
-            android:layout_marginTop="37px"
-            android:layout_width="293px"
-            android:layout_height="458px"/>
+            android:layout_marginTop="37dp"
+            android:layout_width="100dp"
+            android:layout_height="458dp"/>
 
 
 

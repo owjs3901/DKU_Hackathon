@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/m1"
+            android:title="서울/수도권" />
+        <item
+            android:id="@+id/m2"
+            android:title="부산" />
+        <item
+            android:id="@+id/m3"
+            android:title= "제주" />
+        <item
+            android:id="@+id/m4"
+            android:title="대구" />
+        <item
+            android:id="@+id/m5"
+            android:title="대전/세종" />
+
+        <item
+            android:id="@+id/m6"
+            android:title="광주" />
+    </group>
+
+
+</menu>
