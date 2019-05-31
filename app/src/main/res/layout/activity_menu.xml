@@ -5,5 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="100px"
+        >
+        <ImageButton
+            android:id="@+id/cu"
+            android:layout_toRightOf="@id/loc"
+            android:layout_width="587px"
+            android:layout_height="1505px"/>
+        <ImageButton
+            android:id="@+id/loc"
 
+            android:layout_width="587px"
+            android:layout_height="312px"/>
+
+        <ImageButton
+
+            android:layout_below="@+id/loc"
+            android:layout_marginTop="37px"
+            android:id="@+id/food"
+            android:layout_width="587px"
+            android:layout_height="312px"/>
+        <ImageButton
+            android:id="@+id/sale"
+            android:layout_below="@id/food"
+            android:layout_marginTop="37px"
+            android:layout_width="587px"
+            android:layout_height="312px"/>
+
+        <ImageButton
+            android:id="@+id/one"
+            android:layout_below="@id/sale"
+            android:layout_marginTop="37px"
+            android:layout_width="293px"
+            android:layout_height="458px"/>
+        <ImageButton
+            android:id="@+id/any"
+            android:layout_toRightOf="@+id/one"
+            android:layout_below="@id/sale"
+            android:layout_marginTop="37px"
+            android:layout_width="293px"
+            android:layout_height="458px"/>
+
+
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
