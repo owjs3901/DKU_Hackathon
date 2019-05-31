@@ -25,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.food).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(m,FoodActivity.class));
+            }
+        });
+
     }
     protected void onActivityResult (int requestCode, int resultCode, Intent data) {
         if (requestCode == IntentIntegrator.REQUEST_CODE) {

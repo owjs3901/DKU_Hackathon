@@ -5,5 +5,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FoodActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/header"/>
+    <TableLayout
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <ImageButton
+                android:id="@+id/korean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/korean"
+                />
+            <ImageButton
+                android:layout_weight="1"
+                android:id="@+id/chinese"
+                android:background="@drawable/chinese"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/japanese"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/japanese"
+                />
+            <ImageButton
+                android:layout_weight="1"
+                android:id="@+id/western"
+                android:background="@drawable/western"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/schoolfood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/schoolfood"
+                />
+            <ImageButton
+                android:layout_weight="1"
+                android:id="@+id/vietnam"
+                android:background="@drawable/vietnam"
+                />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
+
 
 </android.support.constraint.ConstraintLayout>
