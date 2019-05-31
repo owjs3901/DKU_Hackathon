@@ -1,5 +1,6 @@
 package com.spdd;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.food).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(m,FoodActivity.class));
+                startActivity(new Intent(m,FoodActivity.class), ActivityOptions.makeSceneTransitionAnimation(m).toBundle());
             }
         });
 

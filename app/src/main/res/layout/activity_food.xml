@@ -55,6 +55,20 @@
                 android:background="@drawable/vietnam"
                 />
         </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/fusion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/fusion"
+                />
+            <ImageButton
+                android:layout_weight="1"
+                android:id="@+id/bakery"
+                android:background="@drawable/bakery"
+                />
+        </TableRow>
     </TableLayout>
 </RelativeLayout>
 
