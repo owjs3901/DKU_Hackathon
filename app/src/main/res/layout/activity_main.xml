@@ -9,24 +9,80 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <include layout="@layout/header" />
+
+        <ImageView
+            android:id="@+id/con1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="240dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/banner" />
+        <ImageView
+            android:id="@+id/con"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/header"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/main_img" />
+
         <ImageButton
+            android:background="#000000FF"
+            android:id="@+id/location"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/con1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/location" />
+
+        <ImageButton
+            android:background="#000000FF"
+            android:id="@+id/food"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/location"
+            android:src="@drawable/food" />
+
+        <ImageButton
+
+            android:background="#000000FF"
+            android:id="@+id/one_person"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/food"
+            android:src="@drawable/oneperson" />
+
+        <ImageButton
+            android:background="#000000FF"
+            android:id="@+id/family"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/one_person"
+            android:src="@drawable/family" />
+
+        <ImageButton
+            android:background="#000000FF"
             android:id="@+id/qr"
-            android:layout_margin="50dp"
-            android:layout_width="350dp"
-            android:layout_height="350dp" />
-        <ImageButton
-            android:id="@+id/search"
-            android:layout_below="@+id/qr"
-            android:layout_marginLeft="50dp"
-            android:layout_width="140dp"
-            android:layout_height="140dp" />
-        <ImageButton
-            android:id="@+id/event"
-            android:layout_below="@+id/qr"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:layout_below="@+id/con1"
+            android:layout_marginTop="10dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="50dp"
-            android:layout_width="140dp"
-            android:layout_height="140dp" />
+            android:src="@drawable/qrbutton" />
+        <ImageButton
+            android:background="#000000FF"
+            android:id="@+id/event"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:layout_below="@+id/qr"
+            android:scaleType="fitXY"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/event" />
+
+
 
     </RelativeLayout>
 
